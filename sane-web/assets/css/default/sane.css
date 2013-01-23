@@ -1,0 +1,129 @@
+html, body{
+    margin:0;
+    height: 100%;
+    padding:0;
+    background-color: white;
+}
+
+*{
+    font: 13px/1.5 Verdana, Arial, Simsun, sans-serif;
+}
+
+ul, li {
+    margin:0px;
+    padding:0px;
+}
+
+div#message{
+    width:100%;
+    border: 1px solid gray;
+    background-color: yellow ;
+    display: none;
+}
+
+div#top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display:block;
+    background-color: #336600;
+    color: #BABABA;
+    padding-top:4px;
+    padding-bottom:4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+
+div#top li{
+   float: left; 
+   margin-left: 20px;
+   display: block;
+   padding:0;
+   margin-top:0;
+   margin-right:0;
+   margin-bottom:0;
+}
+
+div#top li button {
+    cursor: pointer;
+    border-width:0px;
+    background-color: transparent;
+    color: #BABABA;
+}
+
+div#top li button:hover{
+    color:white;
+}
+
+div#top li.right {
+   float: right; 
+   margin-right: 20px;
+}
+
+div.saneweb_container{
+    z-index: 10;
+    padding-top: 50px;
+
+}
+
+div.saneweb_container img{
+    position: relative;
+    float: left ;
+    display: block ;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+div#action_box{
+}
+
+span#action_box_label {
+    position: relative;
+    background-color: white;
+    color: black ;
+}
+
+div.saneweb_container div.pnm {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    padding: 16px 0 0 16px;
+    margin: 4px;
+    float: left;
+}
+
+div.saneweb_container div.label {
+    z-index: 50;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 1px 2px;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+div.saneweb_container div.thumbtick {
+    background-position: 0% 0%;
+    z-index: 50;
+    position: absolute;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    background-image: url(images/tick.png);
+    background-repeat: no-repeat;
+    background-scroll: scroll;
+    background-color: transparent;
+}
+
+div.saneweb_container div.thumbtick_selected {
+    background-position: 0% 0%;
+}
+
+div.saneweb_container div.thumbtick_not_selected {
+    background-position:100% 0%;
+}
+

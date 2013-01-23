@@ -1,0 +1,16 @@
+                   SANE Web Interface v1.0.beta
+                 Copyright (c) 2003 Gunars Benga
+       e-mail: benga@parks.lv; gbenga@users.sourceforge.net
+
+
+VERSION HISTORY
+---------------
+
+(1.0.beta) 
+  * Pre-production release.
+  * Bug in SVG preview pane fixed.
+  * Some changes and rearrangements in text documents.
+  * Changed permissions on files.
+
+(0.9)
+  * First time release. Contains bug in SVG preview pane.

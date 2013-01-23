@@ -1,0 +1,18 @@
+FONT		{FONT-FAMILY: Tahoma, Helvetica; FONT-SIZE: 12px}
+TD		{FONT-FAMILY: Tahoma, Helvetica; FONT-SIZE: 12px}
+TH		{FONT-FAMILY: Tahoma, Helvetica; FONT-WEIGHT: bold; FONT-SIZE: 12px}
+BODY		{FONT-FAMILY: Tahoma, Helvetica; FONT-SIZE: 12px}
+P		{FONT-FAMILY: Tahoma, Helvetica; FONT-SIZE: 12px}
+DIV		{FONT-FAMILY: Tahoma, Helvetica; FONT-SIZE: 12px}
+INPUT		{FONT-FAMILY: Tahoma, Helvetica; FONT-SIZE: 12px}
+TEXTAREA	{FONT-FAMILY: Tahoma, Helvetica; FONT-SIZE: 12px}
+FORM 		{FONT-FAMILY: Tahoma, Helvetica; FONT-SIZE: 12px}
+H1 		{FONT-FAMILY: Tahoma, Helvetica; FONT-WEIGHT: bold; FONT-SIZE: 20px; color:#ffffff}
+H2 		{FONT-FAMILY: Tahoma, Helvetica; FONT-WEIGHT: bold; FONT-SIZE: 16px; color:#ffffff}
+Title		{FONT-FAMILY: Tahoma, Helvetica; FONT-WEIGHT: bold; FONT-SIZE: 20px; color:#ffffff}
+Subtitle	{FONT-FAMILY: Tahoma, Helvetica; FONT-WEIGHT: bold; FONT-SIZE: 16px; color:#ffffff}
+HR.green	{COLOR:#168A16}
+A:link          {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Helvetica; TEXT-DECORATION: underline}
+A:active        {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Helvetica; TEXT-DECORATION: underline}
+A:visited       {BACKGROUND: none; COLOR: #000000; FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Helvetica; TEXT-DECORATION: underline}
+A:hover         {BACKGROUND: none; COLOR: #7f7f7f; FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Helvetica; TEXT-DECORATION: underline}

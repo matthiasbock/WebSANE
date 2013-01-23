@@ -1,0 +1,106 @@
+                   SANE Web Interface v1.0.beta
+                 Copyright (c) 2003 Gunars Benga
+       e-mail: benga@parks.lv; gbenga@users.sourceforge.net
+ 
+ 
+ WHAT IS IT?
+ -----------
+ SANE Web Interface (SWI) is a Web "portal" system for accessing the SANE
+ scanner connected to a Linux host by means of a standard Web browser.
+ 
+ SWI is built upon set of server side PHP and shell scripts, client 
+ side JavaScript, SVG (Scalable Vector Graphics) also including some
+ JavaScript.
+ 
+ At the moment (July 2003) the only SVG viewer working satisfactory as a 
+ browser plugin is Adobe's SVG viewer. It works fine only for MS Windows
+ Internet Explorer. Other platforms or browsers do not seem to have this 
+ issue solved. Yet. SVG is rather new technology.
+ 
+ So you will be limited to using MS Internet Explorer for a while.
+ 
+ I wrote SWI for my own use, so it is relatively straightforward and simple.
+ Still I believe at the moment it is already ready for general use. There 
+ are peopole using it in real production environment and they do not
+ complain. I like it too. :)
+ 
+ SWI in its present form does not provide for user identification and privacy.
+ All scans at the server are available to anyone who has network access to the
+ server. While in most cases this is not a problem, please be aware of it.
+ 
+ You may access help on portal interface when you run SWI or you may just
+ study file help.html prior to running SWI.
+ 
+ This version of SWI is designated as beta just in order to give a time gap 
+ for bugs to show up, if they are there, before SWI is declared final.
+ 
+ 
+ LICENSING
+ ---------
+ SANE Web Interface is distributed under the GNU General Public License.
+ See file COPYING for details.
+ 
+ 
+ SETTING UP
+ ----------
+ Your server must have installed Apache with PHP module, ImageMagic, and of 
+ course, SANE itself.
+ 
+ Please study SANE man pages for setting up and configuring it.
+ 
+ Unpack the archive into directory of your preference. My Linux system is
+ SuSE 8.0 and I have placed the files into the "scanner" directory located in
+ "/usr/local/httpd/htdocs". If you also run SuSE, you can do the same, it will
+ save some typing.
+ 
+ Then:
+ 
+ 1.)
+ Edit few parameters in file "scanner.cfg" to match your system. I have marked
+ them so that it is easier to find. Of course, you are not limited to anything,
+ you can change whatever you want if you are up to it.
+ 
+ 2.)
+ Edit script file "clear.sh" and change the name of the spool directory to
+ match the one in "scanner.cfg".
+
+ See if file ownerships and permissions fit your needs.
+  
+ That should be all (unless I have forgot something)!
+
+ When you use SWI for a first time, the preview pane will not show up until
+ you acquire the first preview image.
+ 
+
+ BUGS
+ ----
+ None known at the moment.
+ 
+ SWI was successfully tested with HP ScanJet 6100C and ScanJet 5100C. 
+ 
+ 
+ FEEDBACK
+ --------
+ I would appreciate you telling me if you use this software, did you
+ like it or not and what ideas do you have for future improvements.
+ 
+ Of course, please let me know, if you find any more bugs!
+ 
+ If SWI does not work for you or if you have any questions, please study
+ information available on the Internet first. If it does not help, you may
+ contact me directly, but I do not promise to help or even answer, because I
+ may be busy with other things. My primary education is in Civil Engineering,
+ not the Programming, so if I found all the answers on the Net, so can you. :)
+ 
+ As the development of this program is not my main business, its future very
+ much rests with you. Even if you have some very small input, please send it
+ to me and it may get incorporated into the next updated version of SWI.
+ 
+
+ Happy scanning!
+ 
+ Best regards!
+ Gunars
+ 
+ benga@parks.lv
+   

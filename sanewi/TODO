@@ -1,0 +1,20 @@
+                   SANE Web Interface v1.0.beta
+                 Copyright (c) 2003 Gunars Benga
+       e-mail: benga@parks.lv; gbenga@users.sourceforge.net
+ 
+ 
+ IDEAS FOR FUTURE IMPROVEMENTS
+ -----------------------------
+ * let user edit all the parameters in one place (integrate "clear.sh" like 
+   the other scripts)!
+ * do we need explicit declaration of base URL in config?
+ * does anyone know a way to run programs directly from PHP avoiding shell
+   wrappers?
+ * automatic setup, RPM?
+ * cookies to remember the user settings between sessions?
+ * user identification and their data separation for privacy?
+ * possibly introduce use of MySQL?
+ * scans by email - images arriving directly to your mailbox (would anyone
+   need this?)?
+ * "copy" option - "scanner-to-printer" function?
+   
